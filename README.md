@@ -8,7 +8,7 @@
 
 ## How It Works
 
-NoEconomy registers itself with Vault as the active economy provider. Whenever a plugin (like a shop, auction house, or quest plugin) checks a player's balance, NoEconomy returns `Double.MAX_VALUE`. All withdrawal and deposit requests are instantly marked as successful, but the player's balance never actually changes. This effectively makes all purchases, sell transactions, and economy-related actions always possible.
+NoEconomy registers itself with Vault as the active economy provider. Whenever a plugin (like a shop, auction house, or quest plugin) checks a player's balance, NoEconomy returns `Double.MAX_VALUE`. All withdrawal and deposit requests are instantly marked as successful, but the player's balance never actually changes. This effectively makes all purchases, sell transactions, 和 economy-related actions always possible.
 
 ## Features
 
@@ -21,7 +21,7 @@ NoEconomy registers itself with Vault as the active economy provider. Whenever a
 ## Installation
 
 1. Make sure you have **Vault** installed on your server. ([Download Vault](https://www.spigotmc.org/resources/vault.34315/))
-2. Download the latest NoEconomy jar from the [Releases](https://github.com/yourname/NoEconomy/releases) page.
+2. Download the latest NoEconomy jar from the [Releases](https://github.com/cygbs/NoEconomy/releases) page.
 3. Place the jar into your server's `plugins/` folder.
 4. Restart your server (or use a plugin manager to load it).
 5. NoEconomy will automatically register itself with Vault. No further steps needed!
@@ -45,7 +45,7 @@ However, because NoEconomy simulates infinite money without actually changing ba
 - Perform double-checks by reading the balance after a transaction.
 - Expect balances to decrease over time.
 
-If you encounter issues with a specific plugin, please [open an issue](https://github.com/yourname/NoEconomy/issues) and describe the problem.
+If you encounter issues with a specific plugin, please [open an issue](https://github.com/cygbs/NoEconomy/issues) and describe the problem.
 
 ## Important Notes / Known Limitations
 
@@ -58,7 +58,7 @@ If you encounter issues with a specific plugin, please [open an issue](https://g
 NoEconomy uses Maven. To build the plugin yourself:
 
 ```bash
-git clone https://github.com/yourname/NoEconomy.git
+git clone https://github.com/cygbs/NoEconomy.git
 cd NoEconomy
 mvn clean package
 ```
