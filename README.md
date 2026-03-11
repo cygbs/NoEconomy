@@ -1,4 +1,4 @@
-# NoEconomy
+[# NoEconomy
 
 [![License](https://img.shields.io/github/license/cygbs/NoEconomy)](LICENSE)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue)](https://www.spigotmc.org/)
@@ -8,7 +8,7 @@
 
 ## How It Works
 
-NoEconomy registers itself with Vault as the active economy provider. Whenever a plugin (like a shop, auction house, or quest plugin) checks a player's balance, NoEconomy returns `Double.MAX_VALUE`. All withdrawal and deposit requests are instantly marked as successful, but the player's balance never actually changes. This effectively makes all purchases, sell transactions, 和 economy-related actions always possible.
+NoEconomy registers itself with Vault as the active economy provider. Whenever a plugin (like a shop, auction house, or quest plugin) checks a player's balance, NoEconomy returns `Double.MAX_VALUE`. All withdrawal and deposit requests are instantly marked as successful, but the player's balance never actually changes. This effectively makes all purchases, sell transactions, and economy-related actions always possible.
 
 ## Features
 
@@ -21,7 +21,7 @@ NoEconomy registers itself with Vault as the active economy provider. Whenever a
 ## Installation
 
 1. Make sure you have **Vault** installed on your server. ([Download Vault](https://www.spigotmc.org/resources/vault.34315/))
-2. Download the latest NoEconomy jar from the [Releases](https://github.com/cygbs/NoEconomy/releases) page.
+2. Download the latest NoEconomy jar from the [GitHub](https://github.com/cygbs/NoEconomy/releases) or [Modrinth](https://modrinth.com/plugin/noeconomy).
 3. Place the jar into your server's `plugins/` folder.
 4. Restart your server (or use a plugin manager to load it).
 5. NoEconomy will automatically register itself with Vault. No further steps needed!
@@ -76,3 +76,4 @@ Contributions are welcome! If you have ideas for improvements or find a bug, ple
 ---
 
 **NoEconomy – because sometimes you just want to skip the economy.**
+](https://modrinth.com/plugin/noeconomy)
