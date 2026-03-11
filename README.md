@@ -35,7 +35,7 @@ NoEconomy does **not** require any configuration. It works out of the box.
 
 NoEconomy is designed to be as compatible as possible. It has been tested with:
 
-- Spigot / Paper 1.8 – 1.20
+- Spigot / Paper 1.13 – 1.21
 - Vault 1.7.x
 - Popular plugins like EssentialsX, ChestShop, QuickShop, and others.
 
