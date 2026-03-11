@@ -76,4 +76,3 @@ Contributions are welcome! If you have ideas for improvements or find a bug, ple
 ---
 
 **NoEconomy – because sometimes you just want to skip the economy.**
-](https://modrinth.com/plugin/noeconomy)
