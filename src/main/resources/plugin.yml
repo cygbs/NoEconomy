@@ -1,0 +1,4 @@
+name: NoEconomy
+version: '${project.version}'
+main: net.ypixel.noeconomy.NoEconomy
+api-version: '1.13'
