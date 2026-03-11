@@ -1,4 +1,4 @@
-[# NoEconomy
+# NoEconomy
 
 [![License](https://img.shields.io/github/license/cygbs/NoEconomy)](LICENSE)
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue)](https://www.spigotmc.org/)
