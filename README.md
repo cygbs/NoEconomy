@@ -1,7 +1,7 @@
 # NoEconomy
 
-[![License](https://img.shields.io/github/license/yourname/NoEconomy)](LICENSE)
-[![Minecraft](https://img.shields.io/badge/Minecraft-1.8--1.20-blue)](https://www.spigotmc.org/)
+[![License](https://img.shields.io/github/license/cygbs/NoEconomy)](LICENSE)
+[![Minecraft](https://img.shields.io/badge/Minecraft-1.13--1.21-blue)](https://www.spigotmc.org/)
 [![Vault](https://img.shields.io/badge/Vault-Required-yellow)](https://www.spigotmc.org/resources/vault.34315/)
 
 **NoEconomy** is a lightweight Vault economy provider that gives every player an infinite balance (`Double.MAX_VALUE`). It allows any plugin depending on Vault's economy API to function without actual money management – perfect for creative servers, private friend servers, or testing environments where you don't want to worry about configuring a real economy.
