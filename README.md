@@ -67,7 +67,7 @@ The compiled jar will be in the `target/` directory.
 
 ## License
 
-This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.
+This project is licensed under the LGPLv2.1+ License – see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
